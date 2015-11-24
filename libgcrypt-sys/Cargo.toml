@@ -21,4 +21,4 @@ version = "0.3"
 optional = true
 
 [dependencies]
-libgpg-error-sys = "*"
+libgpg-error-sys = {git = "https://github.com/r-arias/rust-gpg-error"} #"*"
