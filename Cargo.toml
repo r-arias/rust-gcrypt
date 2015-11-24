@@ -12,7 +12,7 @@ keywords = ["crypto", "cryptography"]
 clippy = {git = "https://github.com/Manishearth/rust-clippy", optional = true}
 bitflags = "0.3"
 lazy_static = "0.1"
-gpg-error = "0.1"
+gpg-error = {git = "https://github.com/r-arias/rust-gpg-error"} #"0.1"
 libgcrypt-sys = {path = "libgcrypt-sys", features = ["shim"]}
 
 [features]
